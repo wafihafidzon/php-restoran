@@ -9,7 +9,7 @@
 </head>
 <body>
     <form action="" method="POST">
-        <h1 class="text-red-600">Username</h1> <br>
+        <h1 class="text-2xl">Username</h1> <br>
         <input type="text" name="username"> <br>
         <label>Password</label> <br>
         <input type="password" name="password"> <br>
