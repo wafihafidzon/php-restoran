@@ -26,7 +26,7 @@ include 'function.php';
                 <a href="cart.php"><button class="btn btn-secondary">Keranjang</button></a>
             </div>
         </nav>
-        <form class="d-flex bg-light" method="post">
+        <form class="d-flex bg-light" action="jquerymain.php" method="post">
             <input class="form-control me-2 w-25 m-2" type="search" placeholder="Search" aria-label="Search" id="keywoard">
             <button type="submit" name="cari" id="tombol-cari">Cari</button>
         </form>
@@ -67,6 +67,7 @@ include 'function.php';
     </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="jquery.js"></script>
 </body>
 

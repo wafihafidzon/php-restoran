@@ -1,6 +1,8 @@
+let keywoard = document.getElementById('keywoard')
+let container = document.getElementById('container')
+
 $(document).ready(function() {
-    let keywoard = document.getElementById('keywoard')
-    keywoard.addEventListener('keyup', function() {
-        console.log('ok')
+    $('keywoard').on('keyup', function() {
+        $('container').load('jquerymain.php?keywoard=' + $('keywoard').val())
     })
 })
