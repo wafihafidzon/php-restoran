@@ -29,6 +29,7 @@
     "is-extglob": "^2.1.1",
     "is-glob": "^4.0.3",
     "is-number": "^7.0.0",
+    "jquery": "^3.6.4",
     "lilconfig": "^2.1.0",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.5",
