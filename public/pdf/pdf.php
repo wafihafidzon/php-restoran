@@ -1,6 +1,8 @@
 <?php
 require('../pdfexport/fpdf.php');
 include '../function.php';
+$get = $_GET['op'];
+
 
 $pdf = new FPDF('P', 'mm', 'A4');
 $pdf->AddPage();
