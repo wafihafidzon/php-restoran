@@ -28,7 +28,7 @@ include 'function.php';
         </nav>
         <form class="d-flex bg-light" action="jquerymain.php" method="post">
             <input class="form-control me-2 w-25 m-2" type="search" placeholder="Search" aria-label="Search" id="keywoard">
-            <button type="submit" name="cari" id="tombol-cari">Cari</button>
+            <button class="btn btn-primary" type="submit" name="cari" id="tombol-cari">Cari</button>
         </form>
         <div id="container">
             <table class="table">
