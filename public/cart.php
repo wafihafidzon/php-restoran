@@ -65,7 +65,10 @@ include 'function.php';
                     <tr>
                     <td colspan="5" class="text-center fw-bold" >Totalnya adalah </td>
                     <td class="text-center fw-bold" >Rp.<?= $total ?></td>
-                    </tr>
+                    
+                    <td><a href="pdf/pdf.php?op=makanan"><button type="submit" class="btn btn-warning  " value="Delete" name="cetak">Cetak Makanan</button></a></td>
+                    <td><a href="pdf/pdf.php?op=minuman"><button type="submit" class="btn btn-warning  " value="Delete" name="cetak">Cetak Minuman</button></a></td>
+                </tr>
                     </table>
         </div>
     <?php
