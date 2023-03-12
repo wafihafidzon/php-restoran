@@ -66,10 +66,19 @@ include 'function.php';
                     <td colspan="5" class="text-center fw-bold" >Totalnya adalah </td>
                     <td class="text-center fw-bold" >Rp.<?= $total ?></td>
                     
-                    <td><a href="pdf/pdf.php?op=makanan"><button type="submit" class="btn btn-warning" value="Delete" name="cetak">Cetak Makanan</button></a></td>
-                    <td><a href="pdf/pdf.php?op=minuman"><button type="submit" class="btn btn-warning" value="Delete" name="cetak">Cetak Minuman</button></a></td>
                 </tr>
-                    </table>
+            </table>
+            <a href="pdf/pdf.php?op=makanan"><button type="submit" class="btn btn-warning" value="Delete" name="cetak">Cetak Makanan</button></a>
+            <a href="pdf/pdf.php?op=minuman"><button type="submit" class="btn btn-warning" value="Delete" name="cetak">Cetak Minuman</button></a>
+            <a href="pdf/pdf.php?op=0"><button type="submit" class="btn btn-warning" value="Delete" name="cetak">Cetak Semua</button></a>
+
+            <form action="pdf/struk.php" method="post">
+                <input type="checkbox" name="makanan" value="Makanan" id="">
+                <label>Makanan</label>
+                <input type="checkbox" name="minuman" value="Minuman" id="">
+                <label>Minuman</label>
+                <input type="submit" name="submit" value="Cetak">
+            </form>
         </div>
     <?php
     } else {
