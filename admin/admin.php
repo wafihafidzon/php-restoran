@@ -1,5 +1,5 @@
 <?php
-include '../function.php';
+include '../public/function.php';
 if(!isset($_SESSION['on'])){
     header("Location: index.php");
 }

@@ -23,7 +23,7 @@
 </html>
 
 <?php
-include '../connection.php';
+include '../public/connection.php';
 @$username   = $_POST['username'];
 @$password   = $_POST['password'];
 @$submit     = $_POST['submit'];
