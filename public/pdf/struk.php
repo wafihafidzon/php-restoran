@@ -22,11 +22,11 @@
         <page style="font-size: 14px">
             <table style='width:350px; font-size:16pt; font-family:calibri; border-collapse: collapse;' border='0'>
                 <td width='70%' align='CENTER' vertical-align:top'><span style='color:black;'>
-                        <b>APOTEK GEMILANG FARMA</b></br>JL XXXXXXXXXXX XXXXXXX</span></br>
+                        <b>Rumah Makan Padang</b></br>JL Antah Brantah No, 1000</span></br>
 
 
-                    <span style='font-size:12pt'>No. : xxxxx, 11 Juni 2020 (user:xxxxx), 11:57:50</span></br>
-                </td>
+                    <!-- <span style='font-size:12pt'>No. : xxxxx, 11 Juni 2020 (user:xxxxx), 11:57:50</span></br> -->
+                <br></td>
             </table>
             <style>
                 hr {
@@ -88,30 +88,6 @@
                         <div style='text-align:right; color:black'>Total : </div>
                     </td>
                     <td style='text-align:right; font-size:16pt; color:black'><?= $total ?></td>
-                </tr>
-                <tr>
-                    <td colspan='4'>
-                        <div style='text-align:right; color:black'>Cash : </div>
-                    </td>
-                    <td style='text-align:right; font-size:16pt; color:black'>1.000.000</td>
-                </tr>
-                <tr>
-                    <td colspan='4'>
-                        <div style='text-align:right; color:black'>Change : </div>
-                    </td>
-                    <td style='text-align:right; font-size:16pt; color:black'>252.500</td>
-                </tr>
-                <tr>
-                    <td colspan='4'>
-                        <div style='text-align:right; color:black'>DP : </div>
-                    </td>
-                    <td style='text-align:right; font-size:16pt; color:black'>0</td>
-                </tr>
-                <tr>
-                    <td colspan='4'>
-                        <div style='text-align:right; color:black'>Sisa : </div>
-                    </td>
-                    <td style='text-align:right; font-size:16pt; color:black'>0</td>
                 </tr>
             </table>
             <table style='width:350; font-size:12pt;' cellspacing='2'>
